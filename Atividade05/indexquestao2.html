@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="get"> 
+    <fieldset class="formulario"><legend>Dados pessoais</legend>
+      Digite seu nome:  <input type="text" id="nome" name="nome" minlength="10" maxlength="50" size="20" placeholder="Exemplo: João Silva" required> 
+      <br>
+      <br>
+      Idade:<input type="number" id="idade" name="idade" minlength="10" maxlength="50" size="20" placeholder="18" required>
+       <br>
+       <br>
+      E-mail: <input type="email" id="email" name="email" minlength="10" maxlength="50" size="20" placeholder="joao@silva.com" required>
+       <br>
+       <br>
+    Senha:<input type="password" id="senha" name="senha" minlength="10" maxlength="50" size="20" placeholder="Digite uma senha forte" required>
+        <br>
+        <br>
+        <br>
+        Selecione Estado: <select name="estado" id="estado">
+            <option value="-Selecione-">-Selecione-</option>
+            </select> <br>
+    </fieldset>
+    <fieldset class="formulario"><legend>Dados Profissionais</legend>
+    <br>
+    <br>
+    Selecione as Tecnologias<br>
+    <input type="checkbox"id="HTML" name="HTML" minlength="10" maxlength="50" size="20"required>HTML 
+    <input type="checkbox"id="CSS" name="CSS" minlength="10" maxlength="50" size="20"required> CSS
+    <input type="checkbox"id="Javascripit" name="Javascripit" minlength="10" maxlength="50" size="20"required>Javascripit
+    <input type="checkbox"id="Typescripit" name="Typescripit" minlength="10" maxlength="50" size="20"required>Typescripit 
+    <br>
+    <br>
+    <br>
+    
+    Selecione sua ocupação<br>
+    <input type="radio"id="Front-end" name="Front-end" minlength="10" maxlength="50" size="20"required>Front-end
+    <input type="radio"id="Back-end" name="Back-end" minlength="10" maxlength="50" size="20"required>Back-end
+    <input type="radio"id="Full Stack" name="Full Stack" minlength="10" maxlength="50" size="20"required>Full Stack
+    <br>
+    <br>
+    Escreva sobre você:
+    <br>
+    <textarea name="Texto" id="Texto" cols="30" rows="10"></textarea>
+    <br>
+    Anexe seu currículo <input type="file"id="Currículo" name="Currículo" minlength="10" maxlength="50" size="20"required>
+    </fieldset>
+    <br>
+    <input type="submit"> <input type="reset">
+</form>
+</body>
+</html>
